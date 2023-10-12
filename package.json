@@ -1,0 +1,31 @@
+{
+  "name": "artia-dev-kit",
+  "version": "1.0.0",
+  "description": "The normal dev kit.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ./src --ext .ts",
+    "lint:fix": "eslint ./src --ext .ts --fix",
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "dev": "tsx src/index.ts"
+  },
+  "author": "Seu Nome",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Miuzaki/artia-dev-kit"
+  },
+  "homepage": "https://github.com/Miuzaki/artia-dev-kit",
+  "bugs": {
+    "url": "https://github.com/Miuzaki/artia-dev-kit/issues"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/node": "^20.8.4",
+    "eslint": "^8.51.0",
+    "tsx": "^3.13.0",
+    "typescript": "^5.2.2"
+  }
+}
