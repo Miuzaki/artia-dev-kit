@@ -1,4 +1,4 @@
-# MercadoPagoManager
+# DevKits
 
 ![GitHub License](https://img.shields.io/badge/license-ISC-blue.svg)
 
